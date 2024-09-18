@@ -2,7 +2,7 @@ all:
   children:
     bazinga:
       hosts:
-        35.179.134.40:
+        35.179.113.34:
   
   vars:
     ansible_user: ubuntu
