@@ -2,7 +2,7 @@
 - name: Install "nginx" to latest version
   ansible.builtin.apt:
     name: nginx
-    state: latest
+  
 
 - name: Delete nginx.conf file
   shell: rm /etc/nginx/nginx.conf
