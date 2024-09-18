@@ -21,6 +21,10 @@
   ansible.builtin.apt:
     name: python3-pip
 
+- name: Install flask
+  ansible.builtin.apt:
+    name: python3-flask
+
 # - name: install dependencies
 #   ansible.builtin.pip:
 #     name: flask
