@@ -1,7 +1,6 @@
 ---
 - name: Install "nginx" to latest version
-  ansible.builtin.apt:
-    name: nginx
+  shell: sudo apt install nginx
   
 
 - name: Delete nginx.conf file
