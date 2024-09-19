@@ -1,6 +1,9 @@
 ---
 - name: Install "nginx" to latest version
-  shell: sudo apt install nginx
+  ansible.builtin.apt:
+    name: nginx
+    state: latest
+
   
 - name: Delete nginx.conf file
   shell: rm /etc/nginx/nginx.conf
